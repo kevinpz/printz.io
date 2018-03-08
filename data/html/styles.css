@@ -1,0 +1,119 @@
+.my-social-list {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 20%;
+  text-align: center;
+}
+
+.my-404 {
+  background-image: url('images/404.png');
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+}
+
+#moon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+#rocket {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+
+.my-text {
+  text-align: center;
+  color: #FFF;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.my-title {
+  left: 0;
+  right: 0;
+  position: absolute;
+
+}
+
+.my-404-title {
+  bottom: 5%;
+
+}
+
+.my-descr-title {
+  top: 25%;
+}
+
+.my-social-ico {
+  color: #FFFFFF;
+}
+
+.my-button {
+  margin-right: 15px;
+}
+
+.fb-bg {
+  background-color: #3B579E;
+}
+
+.fb-bg:hover {
+  background-color: #405eaa;
+}
+
+.tw-bg {
+  background-color: #0198F8;
+}
+
+.tw-bg:hover {
+  background-color: #0ca0fe;
+}
+
+.in-bg {
+  background-color: #0069AF;
+}
+
+.in-bg:hover {
+  background-color: #0073c0;
+}
+
+.gr-bg {
+  background-color: #DE326C;
+}
+
+.gr-bg:hover {
+  background-color: #e04176;
+}
+
+.ml-bg {
+  background-color: #607d8b;
+}
+
+.ml-bg:hover {
+  background-color: #678695;
+}
+
+.gp-bg {
+  background-color: #EC3731;
+}
+
+.gp-bg:hover {
+  background-color: #ed4641;
+}
+
+.rs-bg {
+  background-color: #FF9800;
+}
+
+.rs-bg:hover {
+  background-color: #ff9f11;
+}

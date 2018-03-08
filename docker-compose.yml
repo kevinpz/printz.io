@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  website:
+    image: node
+    restart: always
+    working_dir: /data
+    volumes:
+      - /home/kevinpz/docker/printz.io/data:/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:printz.io"
+      - "traefik.port=80"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.entryPoints=http,https
+    command: "npm start"
